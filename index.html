@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <!-- ======= ======= ======= head ======= ======= ======= -->
+	<head>
+	    <meta charset="utf-8">
+	    <title>Jukebox</title>
+
+        <!-- == styles == -->
+	    <link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+    <!-- ======= ======= ======= body ======= ======= ======= -->
+	<body>
+
+		<!-- == content == -->
+		<div id="content">
+
+			<!-- ======= ======= Popup box ======= ======= -->
+			<div id="popup" class="popupBox">
+				<div id="closeButton" class="closeBox">X</div>
+				<div class="inputBox">
+					<form id="form" action="#">
+						Title: <input type="text" name="title" id="title" value=""><br>
+						Artist: <input type="text" name="artist" id="artist" value=""><br>
+						Source: <input type="text" name="source" id="source" value=""><br>
+						Image: <input type="text" name="image" id="image" value=""><br>
+					</form>
+					<div id="saveButton" class="saveBox">
+						<p>Save</p>
+					</div>
+				</div>
+			</div>
+			
+			<!-- ======= ======= image ======= ======= -->
+			<div class="songImg">
+				<img id="img" src="" style="height:100%">
+			</div>
+
+			<!-- ======= ======= playbox ======= ======= -->
+		<div class="playBox">
+			<div id="showcurrentSong" class="nowPlayingbox"></div>
+			<div id="showcurrentArtist" class="nowPlayingbox"></div>
+		</div>
+
+		<!-- ======= ======= mainBox ======= ======= -->
+		<div class="mainBox">
+			<div id="playlist" class="seletDropbox"></div>
+			<div class="mainPlayer">
+				<audio id="audioplay" src="" controls></audio>
+			</div>
+			<div class="loadButton">
+				<p id="loadSong"> Load </p>
+				</div>
+			<div id="playButton" class="controlButton">play</div>
+			<div id="pauseButton" class="controlButton">pause</div>
+			<div id="muteButton" class="controlButton">mute</div>
+			<div id="volumeupButton" class="controlButton">volumeup</div>
+			<div id="volumedownButton" class="controlButton">volumedown</div>
+
+		</div>
+
+		<!-- == scripts == -->
+		<script type="text/javascript" src="script.js"></script>
+
+	</body>
+</html>
+
+
+
+<!--======= ======== ======= ARCHIVE ======= ======== =======-->
+<!--======= ======== ======= ARCHIVE ======= ======== =======-->
+<!--======= ======== ======= ARCHIVE ======= ======== =======-->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
